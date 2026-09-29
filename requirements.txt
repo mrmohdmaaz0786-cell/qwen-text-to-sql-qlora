@@ -1,0 +1,8 @@
+torch
+transformers==5.17.0
+peft==0.21.0
+trl==1.14.0
+datasets==5.0.1
+bitsandbytes==0.50.2
+accelerate
+huggingface_hub
