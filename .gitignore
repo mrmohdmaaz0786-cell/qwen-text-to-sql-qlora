@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+myvenv/
+
+# Model weights / checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+checkpoints/
+qwen-text-to-sql-qlora/
+qwen-sql-qlora/
+
+# Spider assets / databases
+spider_assets/
+*.sqlite
+*.db
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
